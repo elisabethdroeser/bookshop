@@ -1,0 +1,697 @@
+body, html {
+  margin: 0;
+  padding: 0;  
+  font-family: 'montserrat', sans-serif, verdana;
+  box-sizing: border-box; 
+}
+
+header {
+  display: flex;
+  color: blue; 
+  padding: 0;
+  justify-content: center;  
+  height: 15em; 
+}
+
+header > img {
+  margin: 0; 
+  padding: 0; 
+  background-color: yellow; 
+
+}
+
+h1 {
+  font-size: 2.5em; 
+  color:  rgb(218, 30, 218); 
+  text-align: center;
+  padding: 0;
+  margin: 0; 
+}
+h2 {
+  display: block;
+  font-size: 1.5em;
+  text-align: center; 
+}
+
+h3 {
+  font-size: 1.1em; 
+  text-align: center; 
+  margin: 0 0 0.9em 0; 
+  margin-right: 0; 
+  color: rgb(218, 30, 218);
+}
+
+
+.content-section {
+  margin: 1em;   
+}
+
+.container {
+  max-width: 1000px;
+  margin: 0 auto;
+  padding: 0 1.5em;
+  text-align: center; 
+}
+
+
+.product {
+  margin: 40px;
+  float: left;
+  width: 40%;
+  padding: 5px;
+}
+
+
+.product-title {
+  display: block;
+  font-weight: bold;
+  font-size: 1.5em;
+  color: #333;
+  margin-bottom: 15px;
+}
+
+.product-image {
+  height: 15em;
+  padding: 1.5em; 
+}
+.item-details {
+  align-items: center;
+  padding: 5px;
+}
+
+
+.cart-row {
+  display: flex;
+  background-color: rgb(247, 245, 245);
+  
+}
+
+.cart-item {
+    width: 45%; 
+}
+
+
+
+.cart-total {
+  text-align: end;
+  margin-top: 0.5em;
+  margin-right: 0.9em;
+}
+
+.cart-title {
+  font-weight: bold;
+  font-size: 1.5em;
+  color: black;
+  margin-right: 2em;
+}
+
+.cart-total-price {
+  color: #333;
+  font-size: 1.1em;
+}
+
+.btn {
+  text-align: center;
+  vertical-align: middle;
+  padding: .67em .67em;
+  cursor: pointer;
+}
+.btn-add {
+  display: block;
+  background-color:rgb(218, 30, 218); 
+  color: white; 
+  padding: 0.5em 0.8em; 
+  margin: 1em 0;
+}
+.btn-primary {
+  color: white;
+  background-color: #56CCF2;
+  border: none;
+  border-radius: .3em;
+  font-weight: bold;
+}
+
+.btn-primary:hover {
+  background-color: #2D9CDB;
+}
+
+.t
+
+.shop-item {
+  margin: 30px;
+}
+
+.shop-item-title {
+  display: block;
+  width: 100%;
+  text-align: center;
+  font-weight: bold;
+  font-size: 1.5em;
+  color: #333;
+  margin-bottom: 15px;
+}
+
+.shop-item-image {
+  height: 250px;
+}
+
+.shop-item-details {
+  display: flex;
+  align-items: center;
+  padding: 5px;
+}
+
+.shop-item-price {
+  flex-grow: 1;
+  color: #333;
+}
+
+.shop-items {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+}
+
+.cart-header {
+  font-weight: bold;
+  font-size: 1.25em;
+  color: #333;
+}
+
+
+.cart-column {
+  display: flex;
+  align-items: center;
+  border-bottom: 1px solid black;
+  margin-right: 1.5em;
+  padding-bottom: 10px;
+  margin-top: 10px;
+}
+
+.cart-item {
+  width: 45%; 
+}
+
+
+
+.cart-price {
+  width: 20%;
+  font-size: 1.2em;
+  color: #333;
+}
+
+.cart-quantity {
+  width: 35%;
+}
+
+}
+.cart-item-title {
+  color: #333;
+  margin-left: .5em;
+  font-size: 1.2em;
+}
+
+.cart-item-image {
+  width: 100px;
+  height: auto;
+  border-radius: 10px;
+}
+
+.btn-danger {
+  color: white;
+  background-color: #EB5757;
+  padding: 
+  border: none;
+  padding: 1.5em; 
+  font-weight: bold;
+}
+
+.btn-danger:hover {
+  background-color: #CC4C4C;
+}
+
+.cart-quantity-input {
+  height: 34px;
+  width: 50px;
+  border-radius: 5px;
+  border: 1px solid #56CCF2;
+  background-color: #eee;
+  color: #333;
+  padding: 0;
+  text-align: center;
+  font-size: 1.2em;
+  margin-right: 25px;
+}
+
+.cart-row:last-child {
+  border-bottom: 1px solid black;
+}
+
+.cart-row:last-child .cart-column {
+  border: none;
+}
+
+.cart-total {
+  text-align: end;
+  margin-top: 10px;
+  margin-right: 10px;
+}
+
+.cart-total-title {
+  font-weight: bold;
+  font-size: 1.5em;
+  color: black;
+  margin-right: 20px;
+}
+
+.cart-total-price {
+  color: #333;
+  font-size: 1.1em;
+}
+
+.btn-purchase {
+  display: block;
+  background-color:rgb(218, 30, 218); 
+  color: white; 
+  padding: 0.5em 0.8em; 
+  margin: 1em 0 1em auto;
+}
+
+.menu {
+  position: absolute; 
+  width: 70%; 
+  top: 8%;
+  bottom: 0; 
+  margin: 0;
+  background-color:rgb(218, 30, 218, 0.74);
+  z-index: 1;
+  display: none;
+}
+
+input[type="checkbox"]:checked + .menu {
+  display: block;
+}
+
+input[type="checkbox"] {
+  display: none;
+}
+
+header nav .menu ul {
+  margin: 0;
+  padding: 0; 
+}
+
+header nav .menu h3 {
+  padding: 0; 
+  margin: 0; 
+  background-color: rgba(218, 30, 218); 
+  border-bottom: dotted 0.1em white;
+  text-transform: uppercase;
+  color: white;
+}
+
+.menu li {
+  display: block;
+ }
+
+.menu a {
+  padding: 1.1em; 
+  margin: 0;
+  background-color: rgba(218, 30, 218); 
+  display: block; 
+  color: white; 
+  text-decoration: none; 
+  text-transform: uppercase; 
+}
+
+.menu p {
+  color: white; 
+  text-transform: uppercase; 
+}
+
+header nav ul li a:hover {
+  background-color: lightgrey;  
+}
+
+.row {
+  display: flex;  
+  flex-wrap: wrap; 
+}
+
+.column {
+  flex-basis: 100%;
+  position: relative; 
+}
+
+.column p {
+  text-align: center; 
+  font-size: 1em; 
+}
+
+.column img {
+    box-sizing: border-box; 
+    width: 100%; 
+    height: auto;
+    padding: 0.2em; 
+    outline: solid 0.1em rgb(133, 132, 132); 
+}
+
+.column button {
+  position: absolute;
+  left: 50%; 
+  top: 40%; 
+  transform: translate(-50%, -50%); 
+  color: rgb(218, 30, 218); 
+  font-size: 3em; 
+  background-color:rgba(255, 255, 255, 0.884); 
+}
+
+aside {
+  justify-content: center; 
+  padding: 0 0.5em 1em 0.5em; 
+  box-sizing: border-box; 
+}
+
+aside h4 {
+  text-align: center; 
+  font-size: 1.3em; 
+  color: rgb(218, 30, 218); 
+}
+
+aside p {
+  font-size: 1.2em; 
+}
+
+aside table tr td {
+  width: 50%; 
+  padding: 0.5em; 
+  font-size: 1em; 
+}
+
+aside table {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+aside table tr:nth-child(even) {
+  background-color: lightgrey;
+}
+
+aside table tr:nth-child(odd) {
+  background-color: transparent;
+}
+
+aside button {
+  background-color: white; 
+  border: rgb(218, 30, 218) solid 0.2em;
+  padding: 1em;
+  text-align: center; 
+  font-size: 1em;
+  margin: 1em 6em; 
+  -webkit-transition-duration: 0.3s; 
+  transition-duration: 0.3s;
+  box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
+}
+
+button:hover {
+  background-color:cadetblue; 
+  color: white;
+}
+
+footer {
+  width: 100%; 
+  height: auto; 
+  padding: 1em; 
+  background-color: lightgrey; 
+  display: flex;  
+  flex-wrap: wrap; 
+}
+
+footer.column {
+  flex-basis: 100%;
+  background-color: lightgrey; 
+}
+
+.column > h5 {
+  font-size: 0.9em; 
+  font-weight: bold; 
+  text-align: center; 
+}
+
+/*====================MEDIA QUERY MIN-WIDTH: 768PX=========*/
+
+@media (min-width: 768px) {
+
+
+
+h3 {
+  font-size: 1.6em; 
+  text-align: center; 
+  margin: 0 0 0.9em 0; 
+  color: rgb(218, 30, 218);
+}
+
+.menu a {
+  padding: 1.1em; 
+  margin: 0;
+  font-size: 1.3em; 
+  background-color: rgba(218, 30, 218); 
+  display: block; 
+  color: white; 
+  text-decoration: none; 
+  text-transform: uppercase; 
+}
+
+.menu p {
+  color:white;
+  text-transform: uppercase; 
+}
+
+.row {
+  justify-content:space-around;
+  display: flex; 
+}  
+
+.column {
+  flex-basis: 47%;
+  align-items: center;    
+}
+
+.column p {
+  display: flex; 
+  text-align: center; 
+  padding: 0 0.5em; 
+  font-size: 1.2em; 
+}
+
+.column img {
+  width: 100%; 
+  height: auto;
+  padding: 0.2em; 
+  outline: solid 0.1em rgb(133, 132, 132); 
+}
+
+.column button {
+  position: absolute;
+  left: 50%; 
+  top: 35%; 
+  transform: translate(-50%, -50%); 
+  color: rgb(218, 30, 218); 
+  font-size: 3em; 
+  background-color:rgba(255, 255, 255, 0.884); 
+}
+
+aside table tr td {
+  width: 50%; 
+  padding: 0.5em; 
+  font-size: 1.2em; 
+}
+
+aside table {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+aside table tr:nth-child(even) {
+  background-color: lightgrey;
+}
+
+aside table tr:nth-child(odd) {
+  background-color: transparent;
+}
+
+aside button {
+  background-color: white; 
+  border: rgb(218, 30, 218) solid 0.2em;
+  padding: 1.2em;
+  text-align: center; 
+  font-size: 1.2em;
+  margin: 1em 16em 0.2em; 
+  -webkit-transition-duration: 0.3s; 
+  transition-duration: 0.3s;
+  box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
+}
+
+button:hover {
+  background-color:cadetblue; 
+  color: white;
+}
+
+.row footer {
+  justify-content:space-around;
+  display: flex; 
+}
+
+footer .column {
+  flex-basis: 25%;
+  align-items: center;    
+}
+
+.column h5 {
+  font-size: 0.9em; 
+  font-weight: bold; 
+  text-align: center; 
+}
+
+
+
+/*====================MEDIA QUERY MIN-WIDTH: 1024PX=========*/
+
+ @media (min-width: 1024px) {
+
+
+  header {
+    display: flex;
+    flex-wrap: wrap;
+  }
+
+  #toggle, #hamburger {
+    display: none;
+  }
+
+  header nav .menu h3 {
+    display: none; 
+  }
+
+  nav {
+    width: 100%; 
+    padding: 3em; 
+    display: flex;
+    flex-wrap: wrap;
+    overflow: hidden; 
+  }
+
+  nav .menu {
+    position: static;
+    margin: 0; 
+    padding: 0;  
+    background-color: white; 
+    display: flex;
+    width: auto; 
+  }
+
+  .menu li {  
+    padding: 0;      
+  }
+
+  .menu a {
+    margin-bottom: 1em; 
+    height: auto;
+    display: block; 
+    color: black;  
+    background-color: white; 
+    text-decoration: none;
+    overflow: hidden; 
+  }
+
+  header nav ul li a:hover {
+    color: white;  
+    background-color: lightgray; 
+  }
+  .row {
+    justify-content:space-around;
+    display: flex; 
+  }  
+  
+  .column {
+    flex-basis: 24%;
+    align-items: center;    
+  }
+
+  .column p {
+    display: flex; 
+    text-align: center; 
+    padding: 0 0.5em; 
+    font-size: 1.2em; 
+  }
+  
+  .column img {
+    width: 100%; 
+    height: auto;
+    padding: 0.2em; 
+    outline: solid 0.1em rgb(133, 132, 132); 
+  }
+  
+  .column button {
+    position: absolute;
+    left: 50%; 
+    top: 35%; 
+    transform: translate(-50%, -50%); 
+    color: rgb(218, 30, 218); 
+    font-size: 3em; 
+    background-color:rgba(255, 255, 255, 0.884); 
+  }
+
+  aside h4 {
+    padding: 2em 0 0 0;
+  }
+
+  aside p{
+  padding: 2em 0 0 0;
+  }
+
+  aside table tr td {
+    width: 50%; 
+    padding: 0.5em; 
+    font-size: 1.2em; 
+  }
+  
+  aside table {
+    margin: 0 0 0 0em; 
+    width: 100%;
+    border-collapse: collapse;
+  }
+  
+  aside button {
+    background-color: white; 
+    border: rgb(218, 30, 218) solid 0.2em;
+    padding: 1.2em;
+    text-align: center; 
+    font-size: 1.2em;
+    margin: 1em 34em 0.2em; 
+    -webkit-transition-duration: 0.3s; 
+    transition-duration: 0.3s;
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
+  }
+  
+  button:hover {
+    background-color:cadetblue; 
+    color: white;
+  }
+  
+  .row footer {
+    justify-content:space-around;
+    display: flex; 
+  }
+  
+  footer .column {
+      flex-basis: 25%;
+      align-items: center;    
+  }
+  
+  .column h5 {
+    font-size: 1.2em; 
+    font-weight: bold; 
+    text-align: center; 
+  }
+}

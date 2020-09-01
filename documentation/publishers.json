@@ -1,0 +1,33 @@
+{
+    "info": {
+        "no": 5,
+        "message": "Returned items."
+    },
+    "results": [
+        {
+            "id": "11",
+            "name": "Bonnier Carlsen",
+            "email": "info@bonnier.se"
+        },
+        {
+            "id": "12",
+            "name": "HarperCollins Nordic",
+            "email": "forum@info.com"
+        },
+        {
+            "id": "13",
+            "name": "Norstedts",
+            "email": "info@forum.se"
+        },
+        {
+            "id": "14",
+            "name": "Roos Tegner",
+            "email": "info@tidum.se"
+        },
+        {
+            "id": "15",
+            "name": "Bokförlaget Forum",
+            "email": "info@nordiska.se"
+        }
+    ]
+}

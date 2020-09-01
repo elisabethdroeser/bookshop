@@ -1,0 +1,44 @@
+{
+    "info": {
+        "no": 6,
+        "message": "Returned items."
+    },
+    "results": [
+        {
+            "id": "132",
+            "firstName": "Martin",
+            "lastName": "Widmark",
+            "email": "martin@gmail.com"
+        },
+        {
+            "id": "133",
+            "firstName": "Simon",
+            "lastName": "Häggström",
+            "email": "simon@gmail.com"
+        },
+        {
+            "id": "134",
+            "firstName": "Linda",
+            "lastName": "Bakkman",
+            "email": "linda@gmail.com"
+        },
+        {
+            "id": "135",
+            "firstName": "Frida",
+            "lastName": "Ramstedt",
+            "email": "frida@gmail.com"
+        },
+        {
+            "id": "136",
+            "firstName": "Denise",
+            "lastName": "Rudberg",
+            "email": "denise@gmail.com"
+        },
+        {
+            "id": "137",
+            "firstName": "Camilla",
+            "lastName": "Läckberg",
+            "email": "camilla@gmail.com"
+        }
+    ]
+}
