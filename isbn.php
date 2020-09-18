@@ -3,22 +3,27 @@
 
 <?php include "includes/header.php" ?>
 
-<div class="container">
-  <p>Dina böcker:</p><br>
-  <table class="books-table">
-    <tbody>
-      <tr>
-        <td>ISBN</td>
-      </tr>
-      <tr>
-        <td></td>
-        <td></td>
-        <td></td>
-      </tr>
-    </tbody>
+  <table class="table table-striped table-hover" style="padding: 0px;">
+    <thead class="thead-dark">
+      <tbody>
+        <tr>
+          <td>ISBN</td>
+        </tr>
+        <tr>
+          <td>1</td>
+        </tr>
+        <tr>
+          <td>2</td>
+        </tr>
+        <tr>
+          <td>3</td>
+        </tr>
+        <tr>
+          <td>3</td>
+        </tr>
+      </tbody>
+    </thead>
   </table>
-
-
 
   <form method="post" id="logIn" action="upload_file.php">
     <h2>Fyll i dina uppgifter: </h2>
@@ -33,4 +38,3 @@
     <input type="text" name="phone" placeholder="Phone"><br><br>
     <input type="submit" name="register" value="Register">
   </form>
-</div>
