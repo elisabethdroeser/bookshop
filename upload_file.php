@@ -1,12 +1,8 @@
-<?php
-
-?>
-
 <?php include "includes/header.php" ?>
 
 <section class="main">
   <div class="info">
-    <form method="post" enctype="multipart/form-data">
+    <form action="checkout.php" method="post" enctype="multipart/form-data" >
 
       Välj aktuell fil att ladda upp: <br>
       <input type="file" name="fileToUpload" id="fileToUpload">
