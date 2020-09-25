@@ -1,18 +1,23 @@
 <?php include "includes/header.php" ?>
+<div class="container">
 
-<section class="main">
-  <div class="info">
-    <form action="checkout.php" method="post" enctype="multipart/form-data" >
-
+  <div class="select_file">
+    <form method="post" action="checkout.php" enctype="multipart/form-data">
       Välj aktuell fil att ladda upp: <br>
       <input type="file" name="fileToUpload" id="fileToUpload">
-      <input type="submit" value="Ladda upp"><br><br>
-
+      <input type="submit" name="Ladda upp"><br><br>
     </form>
-  <pre>
+
   <?php
+  $msg = NULL;
     //var_dump($_POST);
     //var_dump($_FILES);
+    if ( isset($_POST["submit"]) ) {
+        if (!file_exists($_FILES['fileToUpload']['tmp_name']) || !is_uploaded_file($_FILES['fileToUpload']['tmp_name']))
+        {
+            $msg = '<div class="alert alert-danger">Vänligen välj en fil!</div>';
+
+        } else {
 
     if (isset($_FILES)) {
       $check = true;
@@ -28,11 +33,11 @@
         //print_r($_FILES['fileToUpload']['tmp_name']);
         //echo $path . '/uploaded_files/';
         move_uploaded_file($_FILES['fileToUpload']['tmp_name'], "$path");
-
       }
     }
-
+  }
+}
   ?>
   </div>
-</section>
+</div>
 

@@ -1,5 +1,9 @@
 <pre>
 <?php
+session_start();
+
+// Includes required classes
+require_once('class/user.inc.php');
 require_once('vendor/stripe/stripe-php/init.php');
 
 \Stripe\Stripe::setApiKey('sk_test_IzXuEMKRVWn5ZAJIeVG1EemK00VDz2iFR3'); //YOUR_STRIPE_SECRET_KEY

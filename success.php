@@ -69,6 +69,6 @@
 
 
   function get_post_info($info) {
-    
+
   }
 ?>
