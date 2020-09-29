@@ -1,0 +1,161 @@
+* {
+    box-sizing: border-box;
+    }
+
+html, body {
+    margin: 0px;
+    padding: 0px;
+    font-family: 'montserrat', sans-serif, verdana;
+    box-sizing: border-box;
+}
+
+label {
+    display: block;
+    margin: 5px 0px;
+}
+
+table, th, td, tr {
+    border-collapse: collapse;
+    border-spacing: 0px;
+    max-width: 50%;
+    border: 2px solid black;
+}
+
+
+header {
+    display: flex;
+    background-color: rgb(46, 45, 45);
+    justify-content: center;
+    height: 15em;
+}
+
+.form, .table {
+    margin: 0 auto;
+    width: 40%;
+}
+
+.form {
+    width: 60%;
+    min-width: 330px;
+}
+
+.books-table > tbody > tr{
+    margin-bottom: 10px;
+}
+
+.content-section {
+    margin: 1em;
+}
+
+.container {
+    max-width: 1000px;
+    margin: 0 auto;
+    padding: 0 1.5em;
+    display: flex;
+    position: relative;
+    box-sizing: border-box;
+}
+/*
+.main {
+    min-height: 570px;
+    min-width: 560px;
+    width: 100%;
+    background: rgb(153, 234, 245);
+    display: flex;
+    padding: 5px;
+    position: relative;
+    box-sizing: border-box;
+    opacity: 0.9;
+}*/
+
+.form-group {
+    margin: 10px auto;
+}
+
+.form-row {
+    margin: 0 5px;
+    width: 320px;
+}
+
+.form, .table {
+    margin: 0 auto;
+    width: 40%;
+}
+
+.form {
+    width: 60%;
+    min-width: 330px;
+}
+
+.table table {
+    margin: 5px auto;
+}
+
+.table{
+    width: 30%;
+}
+
+.btn {
+    text-align: center;
+    vertical-align: middle;
+    padding: .67em .67em;
+    cursor: pointer;
+}
+.btn-add {
+    display: block;
+    background-color:rgb(218, 30, 218);
+    color: white;
+    padding: 0.5em 0.8em;
+    margin: 1em 0;
+}
+
+.btn-primary {
+    color: white;
+    background-color: #56CCF2;
+    border: none;
+    border-radius: .3em;
+    font-weight: bold;
+}
+
+.btn-primary:hover {
+    background-color: #2D9CDB;
+}
+
+.btn-purchase {
+    display: block;
+    background-color:rgb(218, 30, 218);
+    color: white;
+    padding: 0.5em 0.8em;
+    margin: 1em 0 1em auto;
+}
+
+.StripeElement {
+    background-color: white;
+    padding: 8px 12px;
+    border-radius: 4px;
+    border: 1px solid transparent;
+    box-shadow: 0 1px 3px 0 #e6ebf1;
+    -webkit-transition: box-shadow 150ms ease;
+    width: 1000px;
+    transition: box-shadow 150ms ease;
+}
+
+.StripeElement--focus {
+    box-shadow: 0 1px 3px 0 #cfd7df;
+}
+
+.StripeElement--invalid {
+    border-color: #fa755a;
+}
+
+.StripeElement--webkit-autofill {
+    background-color: #fefde5 !important;
+}
+
+#payment-form {
+    width: 50%;
+}
+
+#card-element {
+    width: 100%;
+}
