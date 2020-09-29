@@ -2,49 +2,41 @@
 <title>Stripe php</title>
 
 <?php
+  include 'includes/header.php';
+  require_once ('class/csv.php');
 
-include 'includes/header.php';
-require_once ('class/csv.php');
-
-$csv = new Upload();
-
-$msg = NULL;
-
+  $csv = new Upload();
+  $msg = NULL;
 ?>
 
 <div class="container">
   <div class="table">
-    <p>Dina uppladdade uppgifter:</h4>
+    <br>
+    Dina uppladdade uppgifter:
+    <br>
     <?php
 
     $file_details = $csv->showFile();
     echo $file_details;
     ?>
-
   </div>
 
-  <br>
-  <div class="form">
-    <form action="checkout.php" method="post" id="payment-form">
-    <p>Kostnad 20 kr</p><br>
-    <!-- posta till sidan charge.php -->
+  <form action="charge.php" method="post" id="payment-form">
+    <p class="my-4 text-center">Kostnad för nedladdning - 20 kr</p>
       <div class="form-row">
-
-      <br>
-
-        <label for="card-element">Fyll i dina kontokortsuppgifter:</label>
-        <br>
-        <div id="card-element">
-          <!-- a Stripe Element will be inserted here. Id till card. stripe använda i javascript-->
+       <input type="text" name="first_name" class="form-control mb-3 StripeElement StripeElement--empty" placeholder="Förnamn">
+       <input type="text" name="last_name" class="form-control mb-3 StripeElement StripeElement--empty" placeholder="Efternamn">
+       <input type="email" name="email" class="form-control mb-3 StripeElement StripeElement--empty" placeholder="Email-adress">
+        <div id="card-element" class="form-control">
+          <!-- a Stripe Element will be inserted here. -->
         </div>
-
         <!-- Used to display form errors -->
-        <div id="card-errors"></div>
+        <div id="card-errors" role="alert"></div>
       </div>
       <br>
       <button>Betala</button>
     </form>
-  </div>
+
 </div>
 
 <!-- The needed JS files -->
@@ -53,5 +45,5 @@ $msg = NULL;
 <!-- Stripe JS -->
 <script src="https://js.stripe.com/v3/"></script>
 <!-- Your JS File / vår-->
-<script src="charge.js"></script>
+<script src="./js/charge.js"></script>
 

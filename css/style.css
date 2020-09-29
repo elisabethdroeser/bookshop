@@ -147,15 +147,6 @@ img {
     width: 100%;
 }
 
-footer {
-	color: rgb(232, 248, 140);
-	margin: 0 5px;
-	text-align: left;
-	height: 3em;
-	padding: 1em 0 0 1em ;
-	background-color: rgb(9, 36, 155);
-}
-
 .alert-danger{
    margin-bottom: 0;
 }
