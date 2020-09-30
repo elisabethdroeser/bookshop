@@ -1,7 +1,3 @@
-<?php
-
-?>
-
 <?php include "includes/header.php"?>
 
 <div class="container">
@@ -12,6 +8,3 @@
     </form><br><br>
   </div>
 </div>
-
-</body>
-</html>

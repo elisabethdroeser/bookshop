@@ -92,27 +92,17 @@ img {
     width: 30%;
 }
 
-.btn-primary {
-    margin-left: 7px;
-}
+
 
 .download_file  {
     position: relative;
     margin-top: 20px;
 }
 
-.btn-primary{
-    position: absolute;
-    bottom: 10px;
-    left: 5px;
-    width: 200px;
-}
-
 .output{
     margin: 0 auto;
     overflow-x:auto;
 }
-
 
 .table_output{
     overflow-y:scroll;

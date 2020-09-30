@@ -12,10 +12,9 @@
 <title>Receipt</title>
 <div class="container">
   <div>
-      <p>Tack för att ni köpt: <br><?php echo $product; ?></p>
-   <br>
-      <p>Your transaction ID is <?php echo $tid; ?></p>
-      <p>Check your email for more info</p>
-    <p><a href="index.php" class="btn btn-light mt-2">Tillbaka</a></p>
-    </div>
+    <p>Tack för att ni köpt: <br><?php echo $product; ?></p>
+    <br>
+    <p>Ditt transaktionsnr är: <?php echo $tid; ?></p>
+    <a href="confirm.php" class="btn btn-primary">Här ser du din information för nedladdning</a>
+  </div>
 </div>
