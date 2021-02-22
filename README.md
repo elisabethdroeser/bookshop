@@ -1,5 +1,6 @@
 # bookshop
 Bookshop for WIE18, with PHP and API
+
 Enskild uppgift
 Bokkomplettering
 Uppgiften går ut på att skapa en sida som mot betalning tillhandahåller komplettering av bokinformation. Användaren ska kunna ladda upp en CSV-fil som innehåller ISBN-nummer. Applikationen ska sedan anropa ett API och hämta information om varje bok med hjälp av dess ISBN. Applikationen ska skapa en ny CSV-fil som innehåller all tillgänglig information om böckerna och tillhandahålla en länk till filen för användaren.
@@ -18,6 +19,7 @@ Prepared statements.
 Sanering av input, filtrera input-data, validera input-data.
 Genomföra betalning.
 Uppfylla kraven.
+
 VG
 Generell kod.
 Följ kodstandard PSR2.
